@@ -23,11 +23,10 @@ extension HomeViewController{
     }
     
     private func setupNavigationBar(){
-        let btn = UIButton()
-        btn.setImage(UIImage(named:"logo"), for: .normal)
-        btn.sizeToFit()
+  
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(customView:btn)
+        let leftItem = UIBarButtonItem(imageName: "logo")
+        navigationItem.leftBarButtonItem = leftItem
         
         let size = CGSize(width: 40, height: 40)
         let historyItem = UIBarButtonItem(imageName: "image_my_history", highImageName: "Image_my_history_click", size: size)
