@@ -19,6 +19,10 @@
 		383369B820A4478700DB51B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383369B720A4478700DB51B1 /* HomeViewController.swift */; };
 		383369BA20A44C2D00DB51B1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383369B920A44C2D00DB51B1 /* Profile.storyboard */; };
 		383369BD20A44E8900DB51B1 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383369BC20A44E8900DB51B1 /* UIBarButtonItem-Extension.swift */; };
+		386775DA20A95C660023AAEC /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386775D920A95C660023AAEC /* PageTitleView.swift */; };
+		386775DC20A964690023AAEC /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386775DB20A964690023AAEC /* common.swift */; };
+		386775DE20AC22E50023AAEC /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386775DD20AC22E50023AAEC /* PageContentView.swift */; };
+		386775E220AC2FAB0023AAEC /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386775E120AC2FAB0023AAEC /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		383369B720A4478700DB51B1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		383369B920A44C2D00DB51B1 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		383369BC20A44E8900DB51B1 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		386775D920A95C660023AAEC /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		386775DB20A964690023AAEC /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		386775DD20AC22E50023AAEC /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		386775E120AC2FAB0023AAEC /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +193,8 @@
 		383369B520A446DE00DB51B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				386775D920A95C660023AAEC /* PageTitleView.swift */,
+				386775DD20AC22E50023AAEC /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				383369BC20A44E8900DB51B1 /* UIBarButtonItem-Extension.swift */,
+				386775DB20A964690023AAEC /* common.swift */,
+				386775E120AC2FAB0023AAEC /* UIColor-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -273,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386775DC20A964690023AAEC /* common.swift in Sources */,
+				386775DA20A95C660023AAEC /* PageTitleView.swift in Sources */,
 				383369BD20A44E8900DB51B1 /* UIBarButtonItem-Extension.swift in Sources */,
+				386775DE20AC22E50023AAEC /* PageContentView.swift in Sources */,
+				386775E220AC2FAB0023AAEC /* UIColor-Extension.swift in Sources */,
 				383369B620A446DE00DB51B1 /* MainViewController.swift in Sources */,
 				38172C9220A30C24000CBD08 /* DouYuZHiBo.xcdatamodeld in Sources */,
 				38172C8A20A30C24000CBD08 /* AppDelegate.swift in Sources */,
@@ -449,7 +465,7 @@
 				PROVISIONING_PROFILE = "bcb83aaa-6d25-4e91-af78-507f9c0c34a7";
 				PROVISIONING_PROFILE_SPECIFIER = comnuanyouunionclientDevelopment;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,7 +484,7 @@
 				PROVISIONING_PROFILE = "bcb83aaa-6d25-4e91-af78-507f9c0c34a7";
 				PROVISIONING_PROFILE_SPECIFIER = comnuanyouunionclientDevelopment;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
