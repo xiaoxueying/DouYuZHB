@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
     
     private lazy var pageContentView : PageContentView = {
         let contentH = kScreenH - kStatusBarH - kNavigationBar - kTitleViewH
-        let contentFrame  = CGRect(x: 0, y: kScreenH - kStatusBarH - kNavigationBar, width: kScreenW, height: contentH)
+        let contentFrame  = CGRect(x: 0, y: kStatusBarH + kNavigationBar + kTitleViewH, width: kScreenW, height: contentH)
         
         var childVcs = [UIViewController]()
         for _ in 0..<4{
